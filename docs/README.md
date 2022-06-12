@@ -10,4 +10,5 @@ hahahahahahahahahaha
 
 我i又重新加了一个新的文字段！
 
-大家
+[>>指南](guide.md)
+
