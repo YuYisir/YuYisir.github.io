@@ -9,7 +9,7 @@
         * [网站信息](wzbk/xxhz/wzxinxi.md)
     * [▶Typecho](wzbk/Typecho/)
         * [主题](wzbk/Typecho/zhuti.md)
-        * [插件](wzbk/Typecho/chajian.md
+        * [插件](wzbk/Typecho/chajian.md)
     * [▶Wordpress](wzbk/Wordpress/)
         * [主题](wzbk/Wordpress/wpzhuti.md)
         * [插件](wzbk/Wordpress/wpchajian.md)
