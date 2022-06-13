@@ -12,3 +12,4 @@ hahahahahahahahahaha
 
 [>>指南](guide.md)
 
+哈哈！
