@@ -5,8 +5,8 @@
 
 * 网站博客
     * 信息汇总
-        * [服务器](wzbk/xxhz/)
-        * [网站信息](wzbk/xxhz/)
+        * [服务器](wzbk/xxhz/fwq.md)
+        * [网站信息](wzbk/xxhz/wzxinxi.md)
     * Typecho
         * [主题](wzbk/Typecho/zt/)
         * [插件](wzbk/Typecho/cj/)
