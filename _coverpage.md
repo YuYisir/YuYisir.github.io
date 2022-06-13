@@ -1,10 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
-
-<!-- 背景色 -->
-
-![color](#f0f0f0)
+![logo](icon.svg)
 
 # docsify <small>3.5</small>
 
