@@ -3,8 +3,14 @@
 * [首页](/)
 * [指南](guide)
 
-* 前端目录
-    * [javascript](qian/javascript/)
-    * [echarts](qian/echarts/)
-
-* 后端技术
+* 网站博客
+    * 信息汇总
+        * [服务器](wzbk/xxhz/)
+        * [网站信息](wzbk/xxhz/)
+    * Typecho
+        * [主题](wzbk/Typecho/zt/)
+        * [插件](wzbk/Typecho/cj/)
+    * Wordpress
+        * [主题](wzbk/Wordpress/zt/)
+        * [插件](wzbk/Wordpress/cj/)
+        * [仿凡科](wzbk/Wordpress/qt/)
