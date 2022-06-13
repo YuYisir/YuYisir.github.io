@@ -1,11 +1,10 @@
 mybkcdn.b0.aicdn.com
 
-新机 50843jxy..
+50843jxy..
 
 ***
 
-h4hfh1cr
-07c38370
+h4hfh1cr07c38370
 
 ***
 
