@@ -1,3 +1,3 @@
-* [主题](zhuti.md)
+* [主题](wzbk/Typecho/zhuti.md)
 
-* [插件](chajian.md)
+* [插件](wzbk/Typecho/chajian.md)
