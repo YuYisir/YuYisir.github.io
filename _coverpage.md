@@ -9,5 +9,5 @@
 - 人类的悲欢并不相同
 - 我只觉得他们吵闹
 
-[Blgo](https://www.886a.top)
+[Blog](https://www.886a.top)
 [Get Started](README.md)
