@@ -2,13 +2,12 @@
 
 ![logo](icon.svg)
 
-# docsify <small>3.5</small>
+# YuYi'notes <small>3.5</small>
 
-> 一个神奇的文档网站生成器。
+> ⛳从百草园到三味书屋📂
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 人类的悲欢并不相同
+- 我只觉得他们吵闹
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Blgo](https://www.886a.top)
+[Get Started](README.md)
