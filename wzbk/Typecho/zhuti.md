@@ -1,5 +1,46 @@
 # 主题
-## 侧栏设置
+
+
+## Initial
+https://cdn.jsdelivr.net/npm/typecho-joe-next@6.0.0/assets/img/aside_author_image.jpg
+https://cdn.jsdelivr.net/npm/typecho-joe-next@6.0.0/assets/img/wap_aside_image.jpg
+
+https://www.886a.top/usr/themes/PureLoveForTypecho/images/newlogo.webp
+
+https://www.886a.top/usr/themes/PureLoveForTypecho/images/lo.png
+
+https://www.886a.top/usr/themes/PureLoveForTypecho/images/favicon.ico
+
+```css
+body {
+    background-image: url(https://for.886a.top/wp-content/uploads/2021/07/学校.png); 
+
+    background-repeat: repeat;
+    background-attachment:fixed;
+
+}
+```
+
+冀ICP备20003647号
+
+行云博客,https://www.xy586.top/,交流编程技术，专注网络安全,https://www.xy586.top/icon.png
+辰残博客,https://www.chencan.ren/,,https://chencan.ren/wp-content/themes/H-Siren/images/favicon.ico
+<del>LZC'S BLOG</del>,https://caiping520.top,暂时无法访问,
+玉明,https://xdym11235.com/,,https://oss.xdym11235.com/JmN0a9.png
+纸间文库博客,http://blog.zhijianwenku.com,专注于学习资料分享，记录学习各种技术、技能、知识的点点滴滴！,https://i.loli.net/2021/04/26/ReLGso3VhS9cH2m.png
+SKYue's Home,https://www.skyue.com/
+猫叔,https://maoshu.me/
+陈阿叔,https://www.rickychen.top,生活喜欢勇敢的人，用结果去证明一切。
+街拍团,https://jiepaituan.com/
+Eric's Blog,https://eblog.ink
+
+
+***
+***
+
+
+## Joe
+### 侧栏设置
 链接框：
 https://for.886a.top/wp-content/uploads/2021/07/pcbjt-e1625468024960.jpg
 
@@ -12,7 +53,7 @@ https://for.886a.top/wp-content/uploads/2021/07/webbjt-e1625468442662.jpg
 
 ***
 
-## 其他设置
+### 其他设置
 y0uJm7a35dEiNtubPJxZUGNC3bODbFJj
 
 smtp.qq.com
@@ -27,7 +68,7 @@ fhqiyeufwuujefbe
 
 ***
 
-## 全局设置
+### 全局设置
 
 ```html
 /*底部设置*/
@@ -62,7 +103,7 @@ https://dn-qiniu-avatar.qbox.me/avatar/
 
 ***
 
-## 首页设置
+### 首页设置
 https://for.886a.top/wp-content/uploads/2021/06/VL7.png || https://www.886a.top/archives/114.html ||  我们擅长的，实际上就是不断地去「找理由」让我们的认知和行为看起来合理
 https://for.886a.top/wp-content/uploads/2021/07/bjt20210705150234.jpg
 
@@ -72,14 +113,14 @@ https://for.886a.top/wp-content/uploads/2021/07/bjt20210705150234.jpg
 
 ***
 
-## 文章设置
+### 文章设置
 wUBoa1AUoGiyXGIz
 
 prism-okaidia
 
 ***
 
-## 自定义设置
+### 自定义设置
 https://www.886a.top/usr/themes/PureLoveForTypecho/images/zfb.jpg
 
 https://www.886a.top/usr/themes/PureLoveForTypecho/images/wx.png
@@ -88,7 +129,7 @@ https://www.886a.top/usr/themes/PureLoveForTypecho/images/qqzf.jpg
 
 ***
 
-## 源码修改
+### 源码修改
 rgb(224 224 224 / 17%);
 rgba(255,255,255,0.85);
 rgb(34 41 45 / 100%)
