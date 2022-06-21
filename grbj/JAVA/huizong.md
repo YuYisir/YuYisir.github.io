@@ -51,7 +51,7 @@ Java 所有的组成部分都需要名字。类名、变量名以及方法名都
 
 ---
 
-<center> - 此处还未讲解到，待学习(2022/06/21) - </center>
+<center><font color=""red> - 此处还未讲解到，待学习(2022/06/21) - </font></center>
 
 ### Java 变量：
 Java 中主要有如下几种类型的变量
@@ -87,7 +87,7 @@ public class FreshJuiceTest {
 ```
 **注意**：枚举可以单独声明或者声明在类里面。方法、变量、构造函数也可以在枚举中定义。
 
-<center> - 结束 -</center>
+<center><font color=""red> - 结束 - </font></center>
 
 ---
 
@@ -274,4 +274,4 @@ public static void main(String[] args) {
 
 在该程序中，a 变量首先被赋值为“A”，字母 A 在 ASCII（和 Unicode）中对应的值为 65。接着又定义了一个类型为 char 的变量 b，赋值为“B”，字母 B 在 ASCII（和 Unicode）中所对应的值为 66。因此相加后得出的结果为 131。
 
-提示：字符通常用 16 进制表示，范围从“\uOOOO”~“\uFFFF”，即从 0~65535。\uOOOO 和 \uFFFF 中的 u 告诉编译器是用两个字节（16 位）字符信息表示一个 Unicode 字符。
+提示：字符通常用 16 进制表示，范围从“\uOOOO” ~ “ \ uFFFF ” ， 即从 0~65535。\uOOOO 和 \uFFFF 中的 u 告诉编译器是用两个字节（16 位）字符信息表示一个 Unicode 字符。
