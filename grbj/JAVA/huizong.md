@@ -51,7 +51,7 @@ Java 所有的组成部分都需要名字。类名、变量名以及方法名都
 
 ---
 
-<center><font color=""red> - 此处还未讲解到，待学习(2022/06/21) - </font></center>
+<center><font color="red"> - 此处还未讲解到，待学习(2022/06/21) - </font></center>
 
 ### Java 变量：
 Java 中主要有如下几种类型的变量
@@ -87,7 +87,7 @@ public class FreshJuiceTest {
 ```
 **注意**：枚举可以单独声明或者声明在类里面。方法、变量、构造函数也可以在枚举中定义。
 
-<center><font color=""red> - 结束 - </font></center>
+<center><font color="red"> - 结束 - </font></center>
 
 ---
 
