@@ -52,7 +52,7 @@ public class ZizengZijian {
 
 不单独使用（如在表达式中、或者同时有其他操作），放在变量前后会存在明显区别
 1. 放在变量的**前面**，先对变量进行+1、-1操作，再拿变量的值运算
-```JAVA
+```java
 int a = 10;
 int rs = ++a;
 ```
@@ -63,7 +63,7 @@ int b = 10;
 int rs = +b++;
 ```
 
-```JAVA
+```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
 //自增自减运算符
 public class ZizengZijian {
@@ -94,7 +94,7 @@ public class ZizengZijian {
 
 ### 扩展案例
 (！还未学成！)
-```JAVA
+```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
 //自增自减运算符
 public class ZizengZijian {
@@ -157,7 +157,7 @@ System.out.println(a);-----(定义了a += b)
 
 ## 关系运算符
 
-```JAVA
+```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
 //关系运算符
 /*
@@ -212,7 +212,7 @@ public class GuanXi {
 
 ## (位)逻辑运算符
 
-```JAVA
+```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
 
 public class LuoJi {
@@ -263,7 +263,7 @@ public class LuoJi {
 
 ## 三元运算符(条件运算符)
 
-```JAVA
+```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
 //三元运算符
 public class SanYuan {
@@ -305,7 +305,7 @@ public class SanYuan {
 
 <br>
 
-```JAVA
+```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
 //三元运算符
 public class SanYuan {
