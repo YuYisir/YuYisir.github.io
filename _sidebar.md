@@ -4,10 +4,10 @@
 * [指南](guide)
 
 * 个人笔记
-    * [JAVA](grbj/JAVA/)
+    * [☕JAVA基础](grbj/JAVA/)
         * [基础汇总](grbj/JAVA/huizong.md)
         * [课程学习](grbj/JAVA/javaclass.md)
-    * [html/css](grbj/html%26css/)
+    * [🔧html/css](grbj/html%26css/)
         * [Class](grbj/html%26css/webclass.md)
 
 
