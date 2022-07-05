@@ -1,6 +1,7 @@
-# 运算符
 
-## ⭕+符号做连接符
+## 运算符
+
+### ⭕+符号做连接符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -26,7 +27,7 @@ public class jiahao {
 ```
 
 
-## ⭕自增自减运算符
+### ⭕自增自减运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -48,7 +49,7 @@ public class ZizengZijian {
 }
 ```
 
-### 若不是单独使用：
+#### 若不是单独使用：
 
 不单独使用（如在表达式中、或者同时有其他操作），放在变量前后会存在明显区别
 1. 放在变量的**前面**，先对变量进行+1、-1操作，再拿变量的值运算
@@ -85,14 +86,14 @@ public class ZizengZijian {
 
 ```
 
-### 详解
+#### 详解
 
 * ++ 和 -- 既可以放在变量的后边，也可以是前边
 * ++、--只能操作变量，不能操作字面量
 
 <font color="brown">字面量</font>：比如说 2++、++2 ......
 
-### 扩展案例
+#### 扩展案例
 (！还未学成！)
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -116,7 +117,7 @@ public class ZizengZijian {
 ```
 
 
-## ⭕赋值运算符
+### ⭕赋值运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -144,7 +145,7 @@ public class FuZhi {
 
 }
 ```
-### 详解
+#### 详解
 a+b 可简写为 a+=b
 System.out.println(a+b);-----(未定义a += b)
 
@@ -155,7 +156,7 @@ System.out.println(a);-----(定义了a += b)
 +=还可以实现数据的累加，把别人的数据加给自己
 
 
-## ⭕关系运算符
+### ⭕关系运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -195,7 +196,7 @@ public class GuanXi {
 }
 ```
 
-### 详解
+#### 详解
 关系运算符（relational operators）也可以称为“比较运算符”，用于用来比较判断两个变量或常量的大小。关系运算符是二元运算符，运算结果是 boolean 型。当运算符对应的关系成立时，运算结果是 true，否则是 false。
 
 关系表达式是由关系运算符连接起来的表达式。关系运算符中“关系”二字的含义是指一个数据与另一个数据之间的关系，这种关系只有成立与不成立两种可能情况，可以用逻辑值来表示，逻辑上的 true 与 false 用数字 1 与 0 来表示。关系成立时表达式的结果为 true（或 1），否则表达式的结果为 false（或 0）。表 1 给出了比较运算符的含义及其实例应用。
@@ -210,7 +211,7 @@ public class GuanXi {
 不要将“==”写成“=”。
 
 
-## ⭕(位)逻辑运算符
+### ⭕(位)逻辑运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -254,14 +255,14 @@ public class LuoJi {
     }
 }
 ```
-### 详解
+#### 详解
 实际开发中常用逻辑运算符还是  &&  ||  ！
 
 <table border="1"><caption>表1逻辑运算符的用法、含义及实例</caption><tbody><tr><th style="text-align: left;">运算符</th><th style="text-align: left;">用法</th><th style="text-align: left;">含义</th><th style="text-align: left;">说明</th><th style="text-align: left;">实例</th><th style="text-align: left;">结果</th></tr><tr><td>&amp;&amp;</td><td>a&amp;&amp;b</td><td>短路与</td><td>ab全为true时，计算结果为true，否则为false。</td><td>2&gt;1&amp;&amp;3&lt;4</td><td>true</td></tr><tr><td>||</td><td>a||b</td><td>短路或</td><td>ab全为false时，计算结果为false，否则为true。</td><td>2&lt;1||3&gt;4</td><td>false</td></tr><tr><td>!</td><td>!a</td><td>逻辑非</td><td>a为true时，值为false，a为false时，值为true</td><td>!(2&gt;4)</td><td>true</td></tr><tr><td>|</td><td>a|b</td><td>逻辑或</td><td>ab全为false时，计算结果为false，否则为true</td><td>1&gt;2|3&gt;5</td><td>false</td></tr><tr><td>&amp;</td><td>a&amp;b</td><td>逻辑与</td><td>ab全为true&nbsp;时，计算结果为true，否则为false</td><td>1&lt;2&amp;3&lt;5</td><td>true</td></tr></tbody></table>
 
 
 
-## ⭕三元运算符(条件运算符)
+### ⭕三元运算符(条件运算符)
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -283,16 +284,16 @@ public class SanYuan {
 ```
 
 
-### 详解
+#### 详解
 
 执行流程：首先计算**关系变大时的值**，如果值为true，返回值1，如果值为false，返回值2。
 
 判断符号：XX ? XX : XX
 
 
-### 扩展案例
+#### 扩展案例
 
-#### 求三个整数的最大值
+##### 求三个整数的最大值
 
 >需求：定义三个整数，找出最大值并打印在控制台
 
@@ -328,7 +329,7 @@ public class SanYuan {
 ```
 
 
-## ⭕运算符优先级问题
+### ⭕运算符优先级问题
 
 所有的数学运算都认为是从左向右运算的，Java 语言中大部分运算符也是从左向右结合的，只有单目运算符、赋值运算符和三目运算符例外，其中，单目运算符、赋值运算符和三目运算符是从右向左结合的，也就是从右向左运算。
 
@@ -379,7 +380,7 @@ int c = a++- --b*++a/b-- >>2%a--;
 * 不要过多地依赖运算符的优先级来控制表达式的执行顺序，这样可读性太差，尽量使用()来控制表达式的执行顺序。
 
 
-## ⭕拆分三位数
+### ⭕拆分三位数
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -405,7 +406,7 @@ public class OperatorTest2 {
 }
 ```
 
-## ⭕键盘录入
+### ⭕键盘录入
 
 ```java
 package com.itheima.hello.BiliVideoJianPanLuRu;
@@ -432,9 +433,9 @@ public class scannerDemo {
 }
 ```
 
-# 分支结构与穿透性
+## 分支结构与穿透性
 
-## ⭕if分支
+### ⭕if分支
 
 ```java
 package com.itheima.hello.BiliVideoJieGou;
@@ -480,8 +481,8 @@ public class FenZif{
 
 ```
 
-## switch分支
-### ⭕Switch
+### ⭕switch分支
+#### Switch
 
 ![switch的分支](img/%E5%88%86%E6%94%AFswitch.webp)
 
@@ -533,7 +534,7 @@ public class FenZswitch {
 ```
 ![总结](img/%E5%88%86%E6%94%AFswitch%E6%80%BB%E7%BB%93.webp)
 
-### Switch的穿透性
+#### Switch的穿透性
 
 ![switch注意事项](img/%E5%88%86%E6%94%AFswitch3.webp)
 
@@ -655,4 +656,4 @@ public class FenZswitch3 {
 
 ![Switch穿透总结](img/Switch%E7%A9%BF%E9%80%8F%E6%80%BB%E7%BB%93.webp)
 
-# 循环结构
+## 循环结构
