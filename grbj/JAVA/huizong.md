@@ -1,4 +1,6 @@
 # JAVA汇总
+## Java String 类
+[https://www.runoob.com/java/java-string.html](https://www.runoob.com/java/java-string.html)
 ## 🍞JAVA基础语法
 ### 概念：
 * 对象：对象是类的一个实例，有状态和行为。例如，一条狗是一个对象，它的状态有：颜色、名字、品种；行为有：摇尾巴、叫、吃等。
@@ -185,7 +187,7 @@ public static void main(String[] args) {
 
 单精度浮点型（float）和双精度浮点型（double）之间的区别主要是所占用的内存大小不同，float 类型占用 4 字节的内存空间，double 类型占用 8 字节的内存空间。双精度类型 double 比单精度类型 float 具有更高的精度和更大的表示范围。
 
-Java 默认的浮点型为 double，例如，11.11 和 1.2345 都是 double 型数值。如果要说明一个 float 类型数值，就需要在其后追加字母 f 或 F，如 11.11f 和 1.2345F 都是 float 类型的常数。
+Java **默认的浮点型为 double**，例如，11.11 和 1.2345 都是 double 型数值。如果要说明一个 float 类型数值，就需要在其后追加字母 f 或 F，如 11.11f 和 1.2345F 都是 float 类型的常数。
 
 例如，可以使用如下方式声明 float 类型的变量并赋予初值。
 

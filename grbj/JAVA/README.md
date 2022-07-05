@@ -1,6 +1,6 @@
 # 目录：
 * [基础汇总](grbj/JAVA/huizong.md)
-* [java课程笔记](grbj/JAVAjavaclass.md)
+* [java课程笔记](grbj/JAVA/javaclass.md)
 
 
 参考:

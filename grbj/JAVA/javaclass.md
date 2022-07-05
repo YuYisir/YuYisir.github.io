@@ -1,6 +1,6 @@
 # 运算符
 
-## +符号做连接符
+## ⭕+符号做连接符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -26,7 +26,7 @@ public class jiahao {
 ```
 
 
-## 自增自减运算符
+## ⭕自增自减运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -116,7 +116,7 @@ public class ZizengZijian {
 ```
 
 
-## 赋值运算符
+## ⭕赋值运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -155,7 +155,7 @@ System.out.println(a);-----(定义了a += b)
 +=还可以实现数据的累加，把别人的数据加给自己
 
 
-## 关系运算符
+## ⭕关系运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -210,7 +210,7 @@ public class GuanXi {
 不要将“==”写成“=”。
 
 
-## (位)逻辑运算符
+## ⭕(位)逻辑运算符
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -261,7 +261,7 @@ public class LuoJi {
 
 
 
-## 三元运算符(条件运算符)
+## ⭕三元运算符(条件运算符)
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -328,7 +328,7 @@ public class SanYuan {
 ```
 
 
-## 运算符优先级问题
+## ⭕运算符优先级问题
 
 所有的数学运算都认为是从左向右运算的，Java 语言中大部分运算符也是从左向右结合的，只有单目运算符、赋值运算符和三目运算符例外，其中，单目运算符、赋值运算符和三目运算符是从右向左结合的，也就是从右向左运算。
 
@@ -379,7 +379,7 @@ int c = a++- --b*++a/b-- >>2%a--;
 * 不要过多地依赖运算符的优先级来控制表达式的执行顺序，这样可读性太差，尽量使用()来控制表达式的执行顺序。
 
 
-## 拆分三位数
+## ⭕拆分三位数
 
 ```java
 package com.itheima.hello.BiliVideo.Yunsuanfu;
@@ -405,7 +405,7 @@ public class OperatorTest2 {
 }
 ```
 
-## 键盘录入
+## ⭕键盘录入
 
 ```java
 package com.itheima.hello.BiliVideoJianPanLuRu;
@@ -432,6 +432,227 @@ public class scannerDemo {
 }
 ```
 
+# 分支结构与穿透性
+
+## ⭕if分支
+
+```java
+package com.itheima.hello.BiliVideoJieGou;
+
+public class FenZif{
+    public static void main(String[] args) {
+        //需求：心(60 - 100)之间是正常的，否则系统提示进一步检查
+        //格式1： if（条件表达式）{ 代码..}
+        int heartBeat = 60;
+        if(heartBeat < 60 || heartBeat > 100){
+            System.out.prinln("您的心跳是" + heartBeat + ",您可能需要进一步检查！");
+        }
+        System.out.prinln("检查结束")
+        System.out.prinln("-------分隔------")
+
+        //格式2：if(条件表达式){代码..}else {代码..}
+        //需求：发红包
+        double money = 5999;
+        //发1314红包
+        if (money >= 1314){
+            System.out.println("您当前发送红包成功");
+        }else {
+            System.out.println("没钱，别发了");
+        }
+        System.out.println("-------------格式3------------");
+        //格式3： if(){} else if{条件表达式}{代码..}
+        //绩效系统  0-60 c    60-80 b    80-90 a   90-100 a+
+        int score = 99;
+        if (score >= 0 && score < 60){
+            System.out.println("C");
+        }else if (score >= 60 && score < 80){
+            System.out.println("B");
+        }else if (score >= 80 && score < 90){
+            System.out.println("A");
+        }else if (score >= 90 && score < 100){
+            System.out.println("A+");
+        }else {
+            System.out.println("您输入的成绩有误。");
+        }
+
+    }
+}
+
+```
+
+## switch分支
+### ⭕Switch
+
+![switch的分支](img/%E5%88%86%E6%94%AFswitch.webp)
+
+```java
+package com.itheima.hello.BiliVideoJieGou;
+
+//表达类型只能是byte、short、int、char  ----不支持double、float、long
+
+public class FenZswitch {
+    public static void main(String[] args) {
+        /*
+        * 周一：埋头苦干
+        * 周二：请求大牛程序员帮忙
+        * 周三：今晚啤酒、龙虾、小烧烤
+        * 周四：主动帮助新来的女程序员解决bug
+        * 周五：今晚吃鸡
+        * 周六：与王婆介绍的小芳相亲
+        * 周日：郁郁寡欢、准备上班
+        * */
+        String weeked = "周三";
+        switch (weeked){
+            case "周一":
+                System.out.println("埋头苦干");
+                break;
+            case "周二":
+                System.out.println("请求大牛程序员帮忙");
+                break;
+            case "周三":
+                System.out.println("今晚啤酒、龙虾、小烧烤");
+                break;
+            case "周四":
+                System.out.println("主动帮助新来的女程序员解决bug");
+                break;
+            case "周五":
+                System.out.println("今晚吃鸡");
+                break;
+            case "周六":
+                System.out.println("与王婆介绍的小芳相亲");
+                break;
+            case "周日":
+                System.out.println("郁郁寡欢、准备上班");
+                break;
+            default:
+                System.out.println("数据有误！");
+        }
+    }
+}
+
+```
+![总结](img/%E5%88%86%E6%94%AFswitch%E6%80%BB%E7%BB%93.webp)
+
+### Switch的穿透性
+
+![switch注意事项](img/%E5%88%86%E6%94%AFswitch3.webp)
+
+```java
+package com.itheima.hello.BiliVideoJieGou;
+//目标：清楚switch注意点
+
+public class FenZswitch2{
+    public static void main(String[] args) {
+        //表达类型只能是byte、short、int、char  ----不支持double、float、long
+/*      double a = 0.1 + 0.2;
+        System.out.println(a);*/
+
+/*        long lg = 20;
+        switch (lg){};*/
+
+        int lg = 20;
+        switch (lg){};
+
+
+        //case给出的值不允许重复，且只能是字面量，不能是变量。
+
+/*      int a1 = 3;
+         switch (3){
+            case 31:
+                break;
+            case a1:
+                break;
+        }*/
+
+        //不要忘记写break;  否则会出现穿透现象。
+    }
+}
+```
+
 ---
----
----
+
+![switch穿透性](img/Switch%E7%A9%BF%E9%80%8F%E6%80%A7%E6%A1%88%E4%BE%8B.webp)
+
+```java
+package com.itheima.hello.BiliVideoJieGou;
+//switch的穿透性
+//穿透性是为了：  存在多个case分支的功能代码一样时，可以用穿透性把流程集中到同一处处理，这样可以简化代码
+public class FenZswitch3 {
+    public static void main(String[] args) {
+        /*
+        * 需求：用户输入月份可以展示月份的天数
+        * 1、3、5、7、8、10、12月份是31天
+        * 2月份是闰年29天 非闰年28天
+        * 4、6、9、11月份是30天
+        * */
+        int month = 7;
+        switch (month){
+            case 1:
+                System.out.println(month + "是31天");
+                break;
+            case 3:
+                System.out.println(month + "是31天");
+                break;
+            case 5:
+                System.out.println(month + "是31天");
+                break;
+            case 7:
+                System.out.println(month + "是31天");
+                break;
+            case 8:
+                System.out.println(month + "是31天");
+                break;
+            case 10:
+                System.out.println(month + "是31天");
+                break;
+            case 12:
+                System.out.println(month + "是31天");
+                break;
+            case 2:
+                System.out.println(month + "闰年29天 非闰年28天");
+                break;
+            case 4:
+                System.out.println(month + "是30天");
+                break;
+            case 6:
+                System.out.println(month + "是30天");
+                break;
+            case 9:
+                System.out.println(month + "是30天");
+                break;
+            case 11:
+                System.out.println(month + "是30天");
+                break;
+            default:
+                System.out.println("数据有误！");
+        }
+        System.out.println("---------以下为简化后代码--------");
+        switch (month){
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                System.out.println(month + "是31天");
+                break;
+            case 2:
+                System.out.println(month + "闰年29天 非闰年28天");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                System.out.println(month + "是30天");
+                break;
+            default:
+                System.out.println("数据有误！");
+        }
+    }
+}
+```
+
+![Switch穿透总结](img/Switch%E7%A9%BF%E9%80%8F%E6%80%BB%E7%BB%93.webp)
+
+# 循环结构
