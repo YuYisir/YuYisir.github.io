@@ -1,5 +1,5 @@
 
-## 运算符
+## ❌运算符
 
 ### ⭕+符号做连接符
 
@@ -433,7 +433,7 @@ public class scannerDemo {
 }
 ```
 
-## 分支结构与穿透性
+## ❌分支结构与穿透性
 
 ### ⭕if分支
 
@@ -656,4 +656,4 @@ public class FenZswitch3 {
 
 ![Switch穿透总结](img/Switch%E7%A9%BF%E9%80%8F%E6%80%BB%E7%BB%93.webp)
 
-## 循环结构
+## ❌循环结构
